@@ -1,0 +1,34 @@
+import random
+
+fukushi = {'VENEZUELA':'CARACAS', 'CANADA':'OTTAWA'}
+
+keiyooshi = {'atatakai':'templado', 'usui':'delgado', 'omoi':'pesado', 'omoshiroi': 'divertido', 'kyuumibukai':'intersante', 'karui':'ligero', 'kitanai':'sucio', 'suzushii':'fresco', 'semai':'estrecho', 'tsumaranai':'insignificante', 'futoi':'grueso', 'hiroi':'ancho', 'mazui':'nosabroso/torpe', 'yasashii':'facil', 'yasui':'barato'}
+
+dooshi = {'asobu':'jugar', 'uru':'vender', 'okuru':'enviar', 'dasu':'sacar', 'tsuku':'llegar', 'tooru':'pasar'}
+
+
+
+while True:
+    w = print(random.choice(list(keiyooshi.keys())))
+    y = input('Quieres saber el significado?')
+
+    def return_value():
+        for i in keiyooshi.items():
+            print(keiyooshi.values)
+
+
+    if y == 'si':
+        #return_value()
+        for (key, value) in keiyooshi.items():
+            if w in keiyooshi:
+                print(keiyooshi.values(w))
+
+            if keiyooshi[i] in keiyooshi:
+                print(i)
+                #print(list(keiyooshi.items()))
+    else:
+        break
+
+print(random.choice(list(keiyooshi.keys())))
+
+print(random.choice(list(dooshi.keys())))
